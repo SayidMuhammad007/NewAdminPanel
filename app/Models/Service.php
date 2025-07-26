@@ -17,4 +17,8 @@ class Service extends Model
         'description_tr',
         'images',
     ];
+
+    protected $casts = [
+        'images' => 'array',
+    ];
 }
